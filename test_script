@@ -1,0 +1,6 @@
+#!/bin/bash
+
+mknod /dev/myDev c 90 1
+chmod 777 /dev/myDev
+insmod device_driver.ko
+./test
