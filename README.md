@@ -1,5 +1,5 @@
 # Character-device-driver
-Implements a character device driver that reverses a string written to it
+Implements a character device driver with major number 90 that reverses a string written to it
 
 Every device in UNIX is represented by a device file. So reading and
 writing to a device is equivalent to performing file operations on
